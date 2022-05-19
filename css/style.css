@@ -22,6 +22,9 @@ ul {
     display: flex;
 }
 
+.star {
+    padding: 1rem 0;
+}
 /* END COMMON */
 
 /* HEADER */
@@ -37,8 +40,12 @@ header li {
     padding: 0 1rem;
 }
 
-h1, H2 {
+h1 {
 padding: 1rem 0;
+}
+
+#portfolio h2 {
+    padding-top: 2rem;
 }
 
 /* END HEADER */
@@ -60,6 +67,20 @@ padding: 1rem 0;
 
 .start img {
     width: 40%;   
+}
+
+/* Portfolio */
+
+#portfolio {
+    color: black;
+}
+
+.portfolio-title {
+    text-align: center;
+}
+
+.img-container {
+    background-color:#0f38b5;
 }
 
 /* END MAIN */
