@@ -37,11 +37,30 @@ header li {
     padding: 0 1rem;
 }
 
+h1, H2 {
+padding: 1rem 0;
+}
+
 /* END HEADER */
 
 
 /* MAIN */
 
+/* Start section */
+
+#start {
+    background-color: #1abc9b;
+    padding: 3rem 0;
+}
+
+.start {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.start img {
+    width: 40%;   
+}
 
 /* END MAIN */
 
