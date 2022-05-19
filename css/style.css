@@ -11,11 +11,11 @@ a {
     color: inherit;
 }
 
-
 /* COMMON */
 
-body {
-    color: white;
+* {
+    margin: 0 auto;
+    text-align: center;
 }
 
 ul {
@@ -24,6 +24,20 @@ ul {
 
 .star {
     padding: 1rem 0;
+}
+
+section {
+    padding: 3rem 0;
+}
+
+section:nth-of-type(2n + 1) {
+    background-color: #1abc9b;
+    color: white;
+}
+
+.ms_container {
+    width: 70%;
+    margin: 0 auto;
 }
 /* END COMMON */
 
@@ -44,25 +58,16 @@ h1 {
 padding: 1rem 0;
 }
 
-#portfolio h2 {
-    padding-top: 2rem;
-}
-
 /* END HEADER */
 
 
 /* MAIN */
 
-/* Start section */
+/* Start */
 
-#start {
-    background-color: #1abc9b;
-    padding: 3rem 0;
-}
-
-.start {
-    margin: 0 auto;
-    text-align: center;
+.start,
+.about {
+    
 }
 
 .start img {
@@ -81,6 +86,13 @@ padding: 1rem 0;
 
 .img-container {
     background-color:#0f38b5;
+}
+
+/* About Me */
+
+.btn {
+    background-color: lightblue;
+    margin: 2rem 0;
 }
 
 /* END MAIN */
