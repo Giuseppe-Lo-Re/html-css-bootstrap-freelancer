@@ -166,8 +166,16 @@ footer {
     padding: 2rem 1rem;
 }
 
+.social {
+    padding-top: 0.5rem;
+}
+
 .social a {
-    padding: 0.5rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height:2.5rem;
     border: 1px solid white;
     border-radius: 50%
 }
