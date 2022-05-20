@@ -22,8 +22,9 @@ section {
     margin: 0 auto;  
 }
  
-.star {
-    padding-bottom: 1.5rem;
+.star,
+.star-black {
+    padding: 1rem 0 1.5rem 0;
 }
 
 .ms_container {
@@ -38,18 +39,14 @@ section.bg-green {
     background-color: #1abc9b;
 }
 
-section.tx-white {
+.tx-white {
     color: white;
-}
-
-section.tx-center {
-    text-align: center;
 }
 
 .star::before,
 .star::after {
     content: '';
-    width: 4rem;
+    width: 5rem;
     display: inline-block;
     border-bottom: 4px solid white;
     border-radius: 5px;
@@ -98,7 +95,7 @@ header li {
 }
 
 h1 {
-    padding: 1rem 0;
+    padding-top: 1rem;
 }
 
 .start h2 {
@@ -110,19 +107,14 @@ h1 {
 .star-black::before,
 .star-black::after {
     content: '';
-    width: 4rem;
+    width: 5rem;
     display: inline-block;
     border-bottom: 4px solid black;
     border-radius: 5px;
 }
 
-.star-black {
-    padding: 1rem 0 1.5rem 0;
-}
-
-.img-container {
-    
-    border-radius: 20px;
+.img-container img {
+    border-radius: 10px;
 }
 
 .img-container img {
@@ -131,11 +123,15 @@ h1 {
 
 /* About Me */
 
-.btn {
-    background-color: lightblue;
-    margin: 2rem 0;
+.btn-container {
+    padding-top: 2rem;
 }
 
+.btn-primary {
+    
+    background-color: transparent;
+    border-color: white;
+}
 /* END MAIN */
 
 
