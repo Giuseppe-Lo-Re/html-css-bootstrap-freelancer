@@ -56,6 +56,10 @@ section.bg-green {
     border-radius: 5px;
 }
 
+.green {
+    color: #1abc9b;
+}
+
 /* Forms style */
 
 input.form-control,
@@ -67,9 +71,6 @@ textarea.form-control {
     font-size: 1.5rem;
 }
 
-.form-container button {
-    background-color: #1abc9b;
-}
 /* END COMMON */
 
 /* HEADER */
