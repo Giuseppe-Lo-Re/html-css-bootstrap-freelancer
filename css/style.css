@@ -33,6 +33,10 @@ section {
     max-width: 1170px;
 }
 
+
+.p-top2 {
+    padding-top: 2rem;
+}
 /* Utilities */
 
 section.bg-green {
@@ -52,6 +56,20 @@ section.bg-green {
     border-radius: 5px;
 }
 
+/* Forms style */
+
+input.form-control,
+textarea.form-control {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.form-container button {
+    background-color: #1abc9b;
+}
 /* END COMMON */
 
 /* HEADER */
@@ -88,7 +106,7 @@ header li {
 
 /* MAIN */
 
-/* Start section */
+/* Start Section */
 
 .start img {
     width: 30%;   
@@ -102,7 +120,7 @@ h1 {
     font-size: 1.3rem;
 }
 
-/* Portfolio */
+/* Portfolio Section */
 
 .star-black::before,
 .star-black::after {
@@ -121,17 +139,15 @@ h1 {
     width: 100%;
 }
 
-/* About Me */
+/* About Section*/
 
-.btn-container {
-    padding-top: 2rem;
-}
-
-.btn-primary {
-    
+.p-top2 .btn-primary {
     background-color: transparent;
     border-color: white;
 }
+
+/* Contact Section */
+
 /* END MAIN */
 
 
