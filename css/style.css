@@ -55,25 +55,32 @@ header li {
     padding: 0 1rem;
 }
 
-h1 {
-padding: 1rem 0;
+.brand,
+.burger {
+    font-size: 1.6rem;
+    line-height: 80px;
 }
+
+.menu {
+    line-height: 80px;
+}
+
+
 
 /* END HEADER */
 
 
 /* MAIN */
 
-/* Start */
-
-.start,
-.about {
-    
-}
+/* Start section */
 
 .start img {
     width: 40%;   
 }
+
+h1 {
+    padding: 1rem 0;
+    }
 
 /* Portfolio */
 
