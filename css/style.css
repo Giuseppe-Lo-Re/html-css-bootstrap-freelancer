@@ -163,7 +163,13 @@ footer {
 }
 
 .footer-col-content {
-    padding: 1rem;
+    padding: 2rem 1rem;
+}
+
+.social a {
+    padding: 0.5rem;
+    border: 1px solid white;
+    border-radius: 50%
 }
 
 .bottom-footer {
