@@ -34,8 +34,9 @@ footer {
 }
 
 .ms_container {
-    width: 70%;
+    width: 65%;
     margin: 0 auto;
+    max-width: 1170px;
 }
 /* END COMMON */
 
