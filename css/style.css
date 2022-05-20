@@ -74,6 +74,7 @@ textarea.form-control {
 .form-control:focus {
     box-shadow: none;
 }
+
 /* END COMMON */
 
 /* HEADER */
@@ -143,14 +144,12 @@ h1 {
     width: 100%;
 }
 
-/* About Section*/
+/* About Section */
 
 .p-top2 .btn-primary {
     background-color: transparent;
     border-color: white;
 }
-
-/* Contact Section */
 
 /* END MAIN */
 
