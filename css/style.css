@@ -110,9 +110,7 @@ footer {
     background-color:#3a546e;
 }
 
-.tf-left,
-.tf-center,
-.tf-right {
+.footer-col-content {
     padding: 2rem;
 }
 
@@ -122,10 +120,5 @@ footer {
     line-height: 80px;
 }
 
-
-
 /* END FOOTER */
-
-
-/*-------------------- MEDIA QUERY --------------------*/
 
