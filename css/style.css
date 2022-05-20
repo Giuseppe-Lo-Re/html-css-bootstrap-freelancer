@@ -11,26 +11,19 @@ a {
     color: inherit;
 }
 
+a:hover {
+    color: inherit;
+}
+
 /* COMMON */
-
-ul {
-    display: flex;
-}
-
-.star {
-    padding: 1rem 0;
-}
 
 section {
     padding: 3rem 0;
-    margin: 0 auto;
-    text-align: center;
+    margin: 0 auto;  
 }
-
-section:nth-of-type(2n + 1),
-footer {
-    background-color: #1abc9b;
-    color: white;
+ 
+.star {
+    padding-bottom: 1.5rem;
 }
 
 .ms_container {
@@ -38,6 +31,30 @@ footer {
     margin: 0 auto;
     max-width: 1170px;
 }
+
+/* Utilities */
+
+section.bg-green {
+    background-color: #1abc9b;
+}
+
+section.tx-white {
+    color: white;
+}
+
+section.tx-center {
+    text-align: center;
+}
+
+.star::before,
+.star::after {
+    content: '';
+    width: 4rem;
+    display: inline-block;
+    border-bottom: 4px solid white;
+    border-radius: 5px;
+}
+
 /* END COMMON */
 
 /* HEADER */
@@ -51,13 +68,9 @@ header {
     font-weight: 700;
 }
 
-header li {
-    padding: 0 1rem;
-}
-
 .brand,
 .burger {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     line-height: 80px;
 }
 
@@ -65,7 +78,13 @@ header li {
     line-height: 80px;
 }
 
+header ul {
+    display: flex;
+} 
 
+header li {
+    padding: 0 1rem;
+}
 
 /* END HEADER */
 
@@ -75,26 +94,35 @@ header li {
 /* Start section */
 
 .start img {
-    width: 40%;   
+    width: 30%;   
 }
 
 h1 {
     padding: 1rem 0;
-    }
+}
+
+.start h2 {
+    font-size: 1.3rem;
+}
 
 /* Portfolio */
 
-#portfolio {
-    color: black;
+.star-black::before,
+.star-black::after {
+    content: '';
+    width: 4rem;
+    display: inline-block;
+    border-bottom: 4px solid black;
+    border-radius: 5px;
 }
 
-.portfolio-title {
-    text-align: center;
+.star-black {
+    padding: 1rem 0 1.5rem 0;
 }
-
 
 .img-container {
-    background-color:#0f38b5;
+    width: 100%;
+    border-radius: 20px;
 }
 
 /* About Me */
@@ -128,4 +156,3 @@ footer {
 }
 
 /* END FOOTER */
-
