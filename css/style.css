@@ -168,8 +168,8 @@ footer {
     padding: 2rem 1rem;
 }
 
-.social {
-    padding-top: 0.5rem;
+.social li {
+    padding: 0.3rem;
 }
 
 .social a {
@@ -179,7 +179,9 @@ footer {
     width: 2.5rem;
     height:2.5rem;
     border: 1px solid white;
-    border-radius: 50%
+    border-radius: 50%;
+    
+
 }
 
 .bottom-footer {
